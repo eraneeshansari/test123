@@ -15,7 +15,7 @@ spec:
         app: mango
     spec:
       containers:
-      - image: nginx:latest
+      - image: httpd:latest
         name: nginx
         ports:
         - containerPort: 80
